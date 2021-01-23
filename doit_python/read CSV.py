@@ -80,7 +80,7 @@ for j in i:
     else:
         k.append(j)
 
-# print(k)
+# print(,'I')
 
 #숫자가 섞인 원소가있다면??
 
@@ -116,7 +116,7 @@ for j in i:
         i[i.index(j)]= float(re.sub(',','',j))
     except:
         pass
-# print(i)
+print(i)
 
 #예외처리를 함수화 하기
 
